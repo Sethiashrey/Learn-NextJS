@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './components/Card.jsx';
+import Button from './components/Button.jsx';
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
       <p>Interesting person</p>
       Happy new Year 2026!
       <p>Wishing you and your family the best year ahead!</p>
-      <Card name="Shrey Sethia"/ >
+      <Card name="Shrey Sethia" desc="Submit" />
       <Card />
       <Card />
     </>
