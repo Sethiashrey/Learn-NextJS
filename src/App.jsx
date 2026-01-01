@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './components/Card.jsx';
-import Button from './components/Button.jsx';
+import { Button } from './components/ui/button.js';
 
 function App() {
 
@@ -16,6 +16,7 @@ function App() {
       <Card name="Shrey Sethia" desc="Submit" />
       <Card />
       <Card />
+      <Button variant="outline">Hello World</Button>
     </>
   )
 }
