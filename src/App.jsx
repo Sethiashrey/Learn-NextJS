@@ -10,6 +10,7 @@ function App() {
       <h1>Shrey Sethia</h1>
       <p>Interesting person</p>
       Happy new Year 2026!
+      <p>Wishing you and your family the best year ahead!</p>
     </>
   )
 }
